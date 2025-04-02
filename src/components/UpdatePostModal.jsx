@@ -14,6 +14,7 @@ export default function UpdatePostModal({
     const [newFile, setNewFile] = useState(null);
     const dispatch = useDispatch();
     const { currentUser } = useContext(AuthContext);
+
     const userId = currentUser.uid;
 
     const handleUpdate = () => {

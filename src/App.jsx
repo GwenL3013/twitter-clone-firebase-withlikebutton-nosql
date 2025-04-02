@@ -8,7 +8,7 @@ import { AuthProvider } from "./components/AuthProvider"
 export default function App() {
   return (
     <AuthProvider>
-      <Provider store={store}>
+      <Provider store={store} >
         <BrowserRouter>
           <Routes>
             <Route path="/profile" element={<ProfilePage />} />
